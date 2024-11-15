@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.MainDiv {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  .SubDiv {
+    width: 23%;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 1%;
+  }
+}
